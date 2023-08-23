@@ -8,6 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         soma()
+        throw Exception ("Meu primeiro erro")
     }
 
     fun soma(): Int {
